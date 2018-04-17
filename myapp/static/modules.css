@@ -1,0 +1,6 @@
+.landing {
+    background-image: url('marble.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

@@ -1,0 +1,75 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav_button {
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 2%;
+
+}
+
+.container {
+    width: calc(100% - 200px);
+    margin: auto;
+    padding: 0px 10px;
+    background: red;
+}
+
+.one, .two_even, .two_small, .two_big, .three, .four {
+    margin: 0px 10px;
+}
+
+.one {
+    width: 100%;
+}
+
+.two_even {
+    width: 50%;
+}
+
+.two_big {
+    width: 66%;
+}
+
+.two_small {
+    width: 33%;
+}
+
+.three {
+    width: 33%;
+}
+
+.four {
+    width: 25%;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
