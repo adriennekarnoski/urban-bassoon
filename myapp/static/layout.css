@@ -1,59 +1,29 @@
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.nav_button {
-    text-align: center;
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    padding: 2%;
-
-}
 
 .container {
     width: calc(100% - 200px);
+    padding: 5% 0%;
     margin: auto;
-    padding: 0px 10px;
-    background: red;
 }
 
-.one, .two_even, .two_small, .two_big, .three, .four {
-    margin: 0px 10px;
+.one, .two_even, .two_big, .three, .four {
+    padding: 0px 10px;
+    margin: auto;
 }
 
 .one {
-    width: 100%;
+    width: calc(100% - 20px);
 }
 
 .two_even {
-    width: 50%;
+    width: calc(50% - 20px);
 }
 
 .two_big {
-    width: 66%;
-}
-
-.two_small {
-    width: 33%;
+    width: calc(66% - 20px);
 }
 
 .three {
-    width: 33%;
+    width: calc(33% - 20px);
 }
 
 .four {
@@ -72,4 +42,12 @@ nav {
 
 .right {
     float: right;
+}
+
+.gray {
+    background: #414141;
+}
+
+.light_gray {
+    background: #dcdbd6;
 }

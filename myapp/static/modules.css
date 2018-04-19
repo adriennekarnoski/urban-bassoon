@@ -1,6 +1,23 @@
 .landing {
-    background-image: url('marble.jpg');
+    background: url('background_image.png') no-repeat center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
+}
+
+.landing_arrow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0%;
+    color: #414141;
+}
+
+.landing_logo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 6em;
 }

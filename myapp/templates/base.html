@@ -18,6 +18,7 @@
   <link href="{{url_for('static', filename='text.css')}}" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='flaticon.css')}}">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Prata|Raleway" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </head>
 <body>
@@ -26,7 +27,18 @@
       logo
     </section>
     <section class="nav_button right">
-      <i class="fas fa-ellipsis-v fa-4x"></i>
+      <i class="fas fa-ellipsis-v fa-4x" id="nav_open"></i>
+    </section>
+    <section class="nav_dropdown">
+      <article class="nav_button right">
+        <i class="fas fa-times fa-4x" id="nav_close"></i>
+      </article>
+      <ul class="nav_content">
+        <li>Home</li>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
     </section>
   </nav>
   <main>
@@ -37,7 +49,7 @@
   </footer>
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="{{url_for('static', filename='app.js')}}"></script>
 
 </body>

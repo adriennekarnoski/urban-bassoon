@@ -1,0 +1,52 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav_button {
+  text-align: center;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  padding: 2%;
+  color: #c8a79b;
+}
+
+.nav_dropdown {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0, 0.9)
+}
+
+.nav_content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  background: red;
+  text-align: center;
+}
+
+#nav_close {
+  display: none;
+}
