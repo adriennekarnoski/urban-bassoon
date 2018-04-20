@@ -1,4 +1,7 @@
 
+.full_width {
+    width: 100%;
+}
 .container {
     width: calc(100% - 200px);
     padding: 5% 0%;

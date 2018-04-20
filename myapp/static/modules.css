@@ -56,3 +56,17 @@
     height: 80px;
     line-height: 80px;
 }
+
+.how_it_works section {
+    border-left: white solid 3px;
+}
+
+.marble_three {
+    background-image: url('marble_three.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.border_left_pink {
+    border-left: solid #c8a79b 3px;
+}

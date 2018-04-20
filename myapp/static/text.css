@@ -30,6 +30,17 @@ html {
     text-align: center;
 }
 
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_white {
+    color: white;
+}
 .marble_header {
     background-image: url('marble_two.jpg');
     background-size: cover;
@@ -39,4 +50,13 @@ html {
     line-height: 50px;
     font-size: 1.3em;
     border-top: solid #e6d3ca 8px;
+}
+
+.link {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #c8a79b;
+    display: inline-block;
+    margin: 3% 0%;
 }
