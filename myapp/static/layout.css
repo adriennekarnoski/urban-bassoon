@@ -5,13 +5,21 @@
     margin: auto;
 }
 
-.one, .two_even, .two_big, .three, .four {
+.padding {
+    padding: 2% 0%;
+}
+
+.one, .one_small, .two_even, .two_big, .three, .four {
     padding: 0px 10px;
     margin: auto;
 }
 
 .one {
     width: calc(100% - 20px);
+}
+
+.one_small {
+    width: calc(80% - 20px);
 }
 
 .two_even {
@@ -44,10 +52,3 @@
     float: right;
 }
 
-.gray {
-    background: #414141;
-}
-
-.light_gray {
-    background: #dcdbd6;
-}

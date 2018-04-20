@@ -38,15 +38,39 @@ nav {
 
 .nav_content {
   position: relative;
-  top: 25%;
+  top: 20%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
   color: white;
-  background: red;
   text-align: center;
+}
+
+.nav_content li {
+  padding: 3% 0%;
+}
+
+.nav_content a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  letter-spacing: 4px;
 }
 
 #nav_close {
   display: none;
+}
+
+.gray {
+  background: #414141;
+}
+
+.light_gray {
+  background: #dcdbd6;
+}
+
+.pink {
+  background: #e6d3ca;
 }

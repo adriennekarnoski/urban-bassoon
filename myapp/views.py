@@ -5,3 +5,33 @@ from flask import Flask, render_template, request, redirect, url_for
 @app.route('/')
 def home():
     return render_template('home.html')
+
+
+@app.route('/packages')
+def packages():
+    return render_template('packages.html')
+
+
+@app.route('/basic')
+def basic():
+    return render_template('basic.html')
+
+
+@app.route('/standard')
+def standard():
+    return render_template('standard.html')
+
+
+@app.route('/premium')
+def premium():
+    return render_template('premium.html')
+
+
+@app.route('/prices')
+def prices():
+    return render_template('prices.html')
+
+
+@app.route('/process')
+def process():
+    return render_template('process.html')
