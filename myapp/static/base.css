@@ -68,9 +68,13 @@ nav {
 }
 
 .light_gray {
-  background: #dcdbd6;
+  background: #f2f2f2;
 }
 
 .pink {
-  background: #e6d3ca;
+  background: #f7f1ee;
+}
+
+.white {
+  background: white;
 }

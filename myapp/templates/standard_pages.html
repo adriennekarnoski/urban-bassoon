@@ -3,125 +3,73 @@
 
 {% block content %}
 
-<section class="full_width pink">
-    <article class="container">
-        <section class="one_small clearfix">
-            <article class="two_even left">
-                <h1 class="page_heading">Standard Package</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit egestas eros eu dapibus. Nunc eget eros nisl. Nullam scelerisque ipsum vitae quam rutrum iaculis. Nunc nec facilisis ipsum.</p>
-            </article>
-            <article class="two_even left">
-                <img src="http://placehold.it/400x300/1f1f1f" >
-            </article>
-        </section>
-    </article>
-</section>
 
 <section class="container">
+    <h1 class="page_heading">Standard Package</h1>
+    <h2 class="sub_heading">Something</h2>
     <section class="one_small clearfix">
-        <article class="two_big left clearfix">
-            <section class="three left text_center">
-                one
-            </section>
-            <section class="three left text_center">
-                two
-            </section>
-            <section class="three left text_center">
-                three
-            </section>
-            
-        </article>
-        <article class="three right">
-            <h2 class="heading">What's Included</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit egestas eros eu dapibus.</p>
+    <article class="two_even left">
+        <h2 class="heading">Something</h2>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit egestas eros eu dapibus. Nunc eget eros nisl. Nullam scelerisque ipsum vitae quam rutrum iaculis. Nunc nec facilisis ipsum.</p>
+        
+    </article>
+    <article class="two_even right light_gray">
+        <h2 class="heading">Features</h2>
+        <ul>
+                <li>Date</li>
+                <li>Time + Location
+                    <ul>
+                        <li>Ceremony</li>
+                        <li>Cocktail Hour</li>
+                        <li>Reception</li>
+                    </ul></li>
+                <li><i class="fas fa-plus"></i> Dress Code</li>
+                <li><i class="fas fa-plus"></i> Parking</li>
+                <li><i class="fas fa-plus"></i> Weather</li>
+            </ul>
+    </article>
+</section>
+</section>
+
+
+<section class="container clearfix">
+    <article class="one_small padding text_center">
+        <h3 class="page_heading">Included Pages</h3>
+    </article>
+    <article class="one_small">
+        <section class="tab_buttons text_center">
             <ul>
-                    <li><i class="fas fa-check"></i> Date</li>
-                    <li><i class="fas fa-check"></i> Time + Location</li>
-                    <li><i class="fas fa-check"></i> Dress Code</li>
-                    <li><i class="fas fa-check"></i> Parking</li>
-                    <li><i class="fas fa-check"></i> Weather</li>
-                </ul>
-        </article>
+                <li class="active_tab">Home</li>
+                <li>The Wedding</li>
+                <li>Registry</li>
+                <li>Photo Album</li>
+            </ul>
+        </section>
+       
+        <section class="tab_content container">
+            <article class="two_even left">
+                <img src="http://placehold.it/300x300/1f1f1f" >
+            </article>
+            <article class="two_even right">
+                <p>Free</p>
+            </article>
+        </section>
+        
+            </article>
+        </section>
+
+
+<section class="full_width light_gray">
+    <article class="clearfix container">
+        <section class="two_even left">
+            one
+        </section>
+        <section class="two_even left">
+            two
+        </section>
+    </article>
     </section>
-</section>
-
-
-
-<section class="full_width clearfix">
-<article class="pages_small left">
-    
-</article>
-<article class="pages_big right">
-        <article class="one padding">
-            <h2 class="page_heading">Standard Package</h2>
-            <h3 class="sub_heading">4 base pages + 2 additional choices</h3>
-        </article>
-        <article class="one_small">
-            <h4 class="heading">Base pages</h4>
-            <section class="tab_buttons_four text_center">
-                <ul>
-                    <li class="active_tab">Home</li>
-                    <li>The Wedding</li>
-                    <li>Registry</li>
-                    <li>Photo Album</li>
-                </ul>
-            </section>
-           
-            <section class="tab_content container">
-                <article class="two_even left">
-                    <img src="http://placehold.it/300x300/1f1f1f" >
-                </article>
-                <article class="two_even right">
-                    <p>Free</p>
-                </article>
-            </section>
-            
-                </article>
-                <section class="one_small clearfix">
-                <article class="two_even left light_gray">
-                    <h4 class="heading">Additional pages</h4>
-                </article>
-                <article class="two_even pink right">
-                    two
-                </article>
-            </section>
-</article>
-</section>
-
-
-<section>
-    <article class="container clearfix how_it_works">
-        <h3 class="heading">How it works</h3>
-        <section class="three left">
-            <h4 class="heading text_white">1.</h4>
-            <h5 class="sub_heading padding">Consult + Plan</h5>
-        </section>
-        <section class="three left">
-            <h5 class="sub_heading padding">Design + Feedback</h5>
-        </section>
-        <section class="three left">
-            <h5 class="sub_heading padding">Develop + Launch</h5>
-        </section>
-        <a href="{{ url_for('standard') }}" class="link"> Read more <i class="fas fa-angle-right"></i></a>
-    </article>      
-</section>
-
-<section class="light_gray">
-    <article class="container clearfix">
-        <h3 class="heading">Standard</h3>
-        <section class="three left">
-            <h4 class="heading text_white">1.</h4>
-            <h5 class="sub_heading padding">Consult + Plan</h5>
-        </section>
-        <section class="three left">
-            <h5 class="sub_heading padding">Design + Feedback</h5>
-        </section>
-        <section class="three left">
-            <h5 class="sub_heading padding">Develop + Launch</h5>
-        </section>
-        <a href="{{ url_for('standard') }}" class="link"> Read more <i class="fas fa-angle-right"></i></a>
-    </article>      
-</section>
 <section class="clearfix container">
     <h1 class="page_heading">Pages</h1>
     <article class="one_small clearfix">

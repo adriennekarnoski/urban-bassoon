@@ -70,3 +70,74 @@
 .border_left_pink {
     border-left: solid #c8a79b 3px;
 }
+
+.tab_buttons {
+    background: #e6d3ca;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.tab_buttons li {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    height: 40px;
+    padding-top: 2%;
+}
+
+
+.tab_buttons_four {
+    background: #e6d3ca;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.tab_buttons_four li {
+    display: inline-block;
+    width: 20%;
+    margin-left: 1%;
+    height: 40px;
+    padding-top: 2%;
+}
+
+.active_tab {
+    background: white;
+    box-shadow: 0 -4px 8px -4px rgba(0, 0, 0, 0.2), 0 -6px 20px -6px rgba(0, 0, 0, 0.19);
+}
+
+.pricing {
+    border-bottom: solid #c8a79b 3px;
+}
+
+.pages_display {
+    height: 450px;
+}
+.pages_tabs section {
+    height: 150px;
+}
+
+.border_rad {
+    border-radius: 10px;
+}
+
+.pages_container {
+    border-left: solid 3px #c8a79b;
+}
+
+.pages_small {
+    width: 149px;
+    border-right: solid 3px #c8a79b;
+    background-image: url('marble_four.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.pages_big {
+    width: calc(100% - 149px);
+    height: 100vh;
+}
+
+.pages_big h2 {
+    margin-bottom: 5%;
+}

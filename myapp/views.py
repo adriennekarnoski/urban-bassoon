@@ -12,6 +12,16 @@ def packages():
     return render_template('packages.html')
 
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
+@app.route('/about/package-selection')
+def package_selection():
+    return render_template('package_selection.html')
+
+
 @app.route('/basic')
 def basic():
     return render_template('basic.html')
